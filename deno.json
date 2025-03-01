@@ -7,7 +7,7 @@
 		"generate-prefixes-2": "deno run -R -W ./scripts/generate-prefixes-2.js",
 		"convert-mathematica-prefixes-to-markdown": "deno run -R -W ./scripts/convert-mathematica-prefixes-to-markdown.js"
 	},
-	"license": "MIT",
+	"license": "0BSD",
 	"imports": {
 		"@/": "./",
 		"@cliffy/ansi": "jsr:@cliffy/ansi@^1.0.0-rc.7",
