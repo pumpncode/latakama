@@ -12,7 +12,7 @@ The building blocks of u2s are these fundamental constants:
 
 ## Unit prefixes
 
-The unit prefixes indicate multiples or submultiples of a base unit. They are scaled by a factor or divisor of $2^{8*n}$. Their names are defined up to a factor of $2^{8*46}$
+The unit prefixes indicate multiples or submultiples of a base unit. They are scaled by a factor or divisor of $2^{8*n}$.
 
 ## Base units
 
