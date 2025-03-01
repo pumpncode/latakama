@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    372240,       5891]
-NotebookOptionsPosition[    370446,       5861]
-NotebookOutlinePosition[    370841,       5877]
-CellTagsIndexPosition[    370798,       5874]
+NotebookDataLength[    372783,       5882]
+NotebookOptionsPosition[    370984,       5852]
+NotebookOutlinePosition[    371384,       5868]
+CellTagsIndexPosition[    371341,       5865]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,51 +25,30 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{"prefixes", ":=", 
     RowBox[{"{", 
-     RowBox[{
-     "\"\<malisupe\>\"", ",", "\"\<lukesima\>\"", ",", "\"\<tusalope\>\"", 
-      ",", "\"\<mipetoku\>\"", ",", "\"\<sikamuto\>\"", ",", "\"\<ketimu\>\"",
-       ",", "\"\<pakeli\>\"", ",", "\"\<mukipa\>\"", ",", "\"\<lasomu\>\"", 
-      ",", "\"\<polase\>\"", ",", "\"\<mepuli\>\"", ",", "\"\<sitope\>\"", 
-      ",", "\"\<pimuka\>\"", ",", "\"\<meti\>\"", ",", "\"\<taku\>\"", ",", 
-      "\"\<peka\>\"", ",", "\"\<mupe\>\"", ",", "\"\<leso\>\"", ",", 
-      "\"\<pami\>\"", ",", "\"\<mola\>\"", ",", "\"\<lumi\>\"", ",", 
-      "\"\<pite\>\"", ",", "\"\<miku\>\"", ",", "\"\<kima\>\"", ",", 
-      "\"\<tipo\>\"", ",", "\"\<sopu\>\"", ",", "\"\<kose\>\"", ",", 
-      "\"\<tomi\>\"", ",", "\"\<suka\>\"", ",", "\"\<kepu\>\"", ",", 
-      "\"\<sato\>\"", ",", "\"\<lape\>\"", ",", "\"\<kuto\>\"", ",", 
-      "\"\<tikamu\>\"", ",", "\"\<lipeto\>\"", ",", "\"\<kosepa\>\"", ",", 
-      "\"\<tamise\>\"", ",", "\"\<saluto\>\"", ",", "\"\<kumati\>\"", ",", 
-      "\"\<teloka\>\"", ",", "\"\<limukape\>\"", ",", "\"\<kupomali\>\"", 
-      ",", "\"\<pitolema\>\"", ",", "\"\<satupoli\>\"", ",", 
-      "\"\<pelutiso\>\"", ",", "\"\<tumipeko\>\""}], "}"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"prefixes", ":=", 
-   RowBox[{"{", 
-    RowBox[{
-    "\"\<mi\>\"", ",", "\"\<ku\>\"", ",", "\"\<pe\>\"", ",", "\"\<wo\>\"", 
-     ",", "\"\<ni\>\"", ",", "\"\<tu\>\"", ",", "\"\<le\>\"", ",", 
-     "\"\<so\>\"", ",", "\"\<ki\>\"", ",", "\"\<pu\>\"", ",", "\"\<we\>\"", 
-     ",", "\"\<no\>\"", ",", "\"\<ti\>\"", ",", "\"\<lu\>\"", ",", 
-     "\"\<se\>\"", ",", "\"\<mo\>\"", ",", "\"\<pi\>\"", ",", "\"\<wu\>\"", 
-     ",", "\"\<ne\>\"", ",", "\"\<to\>\"", ",", "\"\<li\>\"", ",", 
-     "\"\<su\>\"", ",", "\"\<me\>\"", ",", "\"\<ko\>\"", ",", "\"\<wi\>\"", 
-     ",", "\"\<nu\>\"", ",", "\"\<te\>\"", ",", "\"\<lo\>\"", ",", 
-     "\"\<si\>\"", ",", "\"\<mu\>\"", ",", "\"\<ke\>\"", ",", "\"\<po\>\"", 
-     ",", "\"\<kumi\>\"", ",", "\"\<kuku\>\"", ",", "\"\<kupe\>\"", ",", 
-     "\"\<kuwo\>\"", ",", "\"\<kuni\>\"", ",", "\"\<kutu\>\"", ",", 
-     "\"\<kule\>\"", ",", "\"\<kuso\>\"", ",", "\"\<kuki\>\"", ",", 
-     "\"\<kupu\>\"", ",", "\"\<kuwe\>\"", ",", "\"\<kuno\>\"", ",", 
-     "\"\<kuti\>\"", ",", "\"\<kulu\>\"", ",", "\"\<kuse\>\"", ",", 
-     "\"\<kumo\>\"", ",", "\"\<kupi\>\"", ",", "\"\<kuwu\>\"", ",", 
-     "\"\<kune\>\"", ",", "\"\<kuto\>\"", ",", "\"\<kuli\>\"", ",", 
-     "\"\<kusu\>\"", ",", "\"\<kume\>\"", ",", "\"\<kuko\>\"", ",", 
-     "\"\<kuwi\>\"", ",", "\"\<kunu\>\"", ",", "\"\<kute\>\"", ",", 
-     "\"\<kulo\>\"", ",", "\"\<kusi\>\"", ",", "\"\<kumu\>\"", ",", 
-     "\"\<kuke\>\"", ",", "\"\<kupo\>\""}], "}"}]}], "\[IndentingNewLine]", 
+     RowBox[{"\"\<mi\>\"", ",", "\"\<ku\>\"", ",", "\"\<je\>\"", 
+      ",", "\"\<po\>\"", ",", "\"\<ni\>\"", ",", "\"\<tu\>\"", 
+      ",", "\"\<le\>\"", ",", "\"\<so\>\"", ",", "\"\<ki\>\"", 
+      ",", "\"\<ju\>\"", ",", "\"\<pe\>\"", ",", "\"\<no\>\"", 
+      ",", "\"\<ti\>\"", ",", "\"\<lu\>\"", ",", "\"\<se\>\"", 
+      ",", "\"\<mo\>\"", ",", "\"\<ji\>\"", ",", "\"\<pu\>\"", 
+      ",", "\"\<ne\>\"", ",", "\"\<to\>\"", ",", "\"\<li\>\"", 
+      ",", "\"\<su\>\"", ",", "\"\<me\>\"", ",", "\"\<ko\>\"", 
+      ",", "\"\<pi\>\"", ",", "\"\<nu\>\"", ",", "\"\<te\>\"", 
+      ",", "\"\<lo\>\"", ",", "\"\<si\>\"", ",", "\"\<mu\>\"", 
+      ",", "\"\<ke\>\"", ",", "\"\<jo\>\"", ",", "\"\<kumi\>\"", 
+      ",", "\"\<kuku\>\"", ",", "\"\<kuje\>\"", ",", "\"\<kupo\>\"", 
+      ",", "\"\<kuni\>\"", ",", "\"\<kutu\>\"", ",", "\"\<kule\>\"", 
+      ",", "\"\<kuso\>\"", ",", "\"\<kuki\>\"", ",", "\"\<kuju\>\"", 
+      ",", "\"\<kupe\>\"", ",", "\"\<kuno\>\"", ",", "\"\<kuti\>\"", 
+      ",", "\"\<kulu\>\"", ",", "\"\<kuse\>\"", ",", "\"\<kumo\>\"", 
+      ",", "\"\<kuji\>\"", ",", "\"\<kupu\>\"", ",", "\"\<kune\>\"", 
+      ",", "\"\<kuto\>\"", ",", "\"\<kuli\>\"", ",", "\"\<kusu\>\"", 
+      ",", "\"\<kume\>\"", ",", "\"\<kuko\>\"", ",", "\"\<kupi\>\"", 
+      ",", "\"\<kunu\>\"", ",", "\"\<kute\>\"", ",", "\"\<kulo\>\"", 
+      ",", "\"\<kusi\>\"", ",", "\"\<kumu\>\"", ",", "\"\<kuke\>\"", 
+      ",", "\"\<kujo\>\""}], "}"}]}], ";"}], "\[IndentingNewLine]", 
   "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", "LENGTH", " ", "*)"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", "LENGTH", " ", "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"laQuantity", ":=", 
@@ -100,32 +79,31 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{"lengthUnits", "=", 
     RowBox[{"{", 
-     RowBox[{
-     "\"\<Quectometers\>\"", ",", "\"\<rm\>\"", ",", "\"\<ym\>\"", ",", 
-      "\"\<zm\>\"", ",", "\"\<am\>\"", ",", "\"\<fm\>\"", ",", "\"\<pm\>\"", 
-      ",", "\"\<nm\>\"", ",", "\"\<\[Micro]m\>\"", ",", "\"\<mm\>\"", ",", 
-      "\"\<cm\>\"", ",", "\"\<dm\>\"", ",", "\"\<m\>\"", ",", 
-      "\"\<Dekameters\>\"", ",", "\"\<Kilometers\>\"", ",", 
-      "\"\<Hectometers\>\"", ",", "\"\<LightMilliseconds\>\"", ",", 
-      "\"\<Megameters\>\"", ",", "\"\<EarthEquatorialRadius\>\"", ",", 
-      "\"\<Hebdometers\>\"", ",", "\"\<Nanoparsecs\>\"", ",", 
-      "\"\<JupiterEquatorialRadius\>\"", ",", "\"\<LightSeconds\>\"", ",", 
-      "\"\<MeanMoonEarthDistance\>\"", ",", "\"\<SolarRadius\>\"", ",", 
-      "\"\<Gigameters\>\"", ",", "\"\<LightMinutes\>\"", ",", 
-      "\"\<AstronomicalUnit\>\"", ",", "\"\<Terameters\>\"", ",", 
-      "\"\<LightHours\>\"", ",", "\"\<LightDays\>\"", ",", 
-      "\"\<Milliparsecs\>\"", ",", "\"\<KiloastronomicalUnit\>\"", ",", 
-      "\"\<Petameters\>\"", ",", "\"\<LightYears\>\"", ",", "\"\<Parsecs\>\"",
-       ",", "\"\<Exameters\>\"", ",", "\"\<KilolightYears\>\"", ",", 
-      "\"\<Kiloparsecs\>\"", ",", "\"\<GalacticUnit\>\"", ",", 
-      "\"\<Zettameters\>\"", ",", "\"\<MegalightYears\>\"", ",", 
-      "\"\<Megaparsecs\>\"", ",", "\"\<Yottameters\>\"", ",", 
-      "\"\<GigalightYears\>\"", ",", "\"\<Gigaparsecs\>\"", ",", 
-      "\"\<HubbleLength\>\"", ",", "\"\<UniverseRadius\>\"", ",", 
-      "\"\<UniverseDiameter\>\"", ",", "\"\<Ronnameters\>\"", ",", 
-      "\"\<Teraparsecs\>\"", ",", "\"\<Quettameters\>\"", ",", 
-      "\"\<Petaparsecs\>\"", ",", "\"\<Exaparsecs\>\""}], "}"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+     RowBox[{"\"\<Quectometers\>\"", ",", "\"\<rm\>\"", ",", "\"\<ym\>\"", 
+      ",", "\"\<zm\>\"", ",", "\"\<am\>\"", ",", "\"\<fm\>\"", 
+      ",", "\"\<pm\>\"", ",", "\"\<nm\>\"", ",", "\"\<\[Micro]m\>\"", 
+      ",", "\"\<mm\>\"", ",", "\"\<cm\>\"", ",", "\"\<dm\>\"", 
+      ",", "\"\<m\>\"", ",", "\"\<Dekameters\>\"", ",", "\"\<Kilometers\>\"", 
+      ",", "\"\<Hectometers\>\"", ",", "\"\<LightMilliseconds\>\"", 
+      ",", "\"\<Megameters\>\"", ",", "\"\<EarthEquatorialRadius\>\"", 
+      ",", "\"\<Hebdometers\>\"", ",", "\"\<Nanoparsecs\>\"", 
+      ",", "\"\<JupiterEquatorialRadius\>\"", ",", "\"\<LightSeconds\>\"", 
+      ",", "\"\<MeanMoonEarthDistance\>\"", ",", "\"\<SolarRadius\>\"", 
+      ",", "\"\<Gigameters\>\"", ",", "\"\<LightMinutes\>\"", 
+      ",", "\"\<AstronomicalUnit\>\"", ",", "\"\<Terameters\>\"", 
+      ",", "\"\<LightHours\>\"", ",", "\"\<LightDays\>\"", 
+      ",", "\"\<Milliparsecs\>\"", ",", "\"\<KiloastronomicalUnit\>\"", 
+      ",", "\"\<Petameters\>\"", ",", "\"\<LightYears\>\"", 
+      ",", "\"\<Parsecs\>\"", ",", "\"\<Exameters\>\"", 
+      ",", "\"\<KilolightYears\>\"", ",", "\"\<Kiloparsecs\>\"", 
+      ",", "\"\<GalacticUnit\>\"", ",", "\"\<Zettameters\>\"", 
+      ",", "\"\<MegalightYears\>\"", ",", "\"\<Megaparsecs\>\"", 
+      ",", "\"\<Yottameters\>\"", ",", "\"\<GigalightYears\>\"", 
+      ",", "\"\<Gigaparsecs\>\"", ",", "\"\<HubbleLength\>\"", 
+      ",", "\"\<UniverseRadius\>\"", ",", "\"\<UniverseDiameter\>\"", 
+      ",", "\"\<Ronnameters\>\"", ",", "\"\<Teraparsecs\>\"", 
+      ",", "\"\<Quettameters\>\"", ",", "\"\<Petaparsecs\>\"", 
+      ",", "\"\<Exaparsecs\>\""}], "}"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"baseLengthUnit", "=", "\"\<Meters\>\""}], ";"}], 
@@ -157,10 +135,7 @@ Cell[BoxData[{
    StyleBox[";",
     FontColor->RGBColor[
      0.396078431372549, 0.20784313725490197`, 0.06274509803921569]]}], 
-  StyleBox["\[IndentingNewLine]",
-   FontColor->RGBColor[
-    0.396078431372549, 0.20784313725490197`, 
-     0.06274509803921569]]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"availableLengthUnits", ":=", 
@@ -298,8 +273,8 @@ Cell[BoxData[{
         RowBox[{"\"\<2^{8*\>\"", ",", 
          RowBox[{"ToString", "[", 
           RowBox[{"#2", "[", 
-           RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], 
-       ",", "\[IndentingNewLine]", 
+           RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], ",",
+        "\[IndentingNewLine]", 
        RowBox[{"getPrefixItem", "[", 
         RowBox[{"la", "*", 
          RowBox[{"(", 
@@ -312,8 +287,7 @@ Cell[BoxData[{
         "]"}]}], "\[IndentingNewLine]", "}"}], "&"}], ",", 
     "\[IndentingNewLine]", "prefixes"}], "\[IndentingNewLine]", "]"}], 
   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", "TIME", " ", "*)"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", "TIME", " ", "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"taQuantity", ":=", 
@@ -344,16 +318,16 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{"timeUnits", "=", 
     RowBox[{"{", 
-     RowBox[{
-     "\"\<qs\>\"", ",", "\"\<rs\>\"", ",", "\"\<ys\>\"", ",", "\"\<zs\>\"", 
-      ",", "\"\<as\>\"", ",", "\"\<fs\>\"", ",", "\"\<ps\>\"", ",", 
-      "\"\<ns\>\"", ",", "\"\<\[Micro]s\>\"", ",", "\"\<ms\>\"", ",", 
-      "\"\<cs\>\"", ",", "\"\<ds\>\"", ",", "\"\<s\>\"", ",", 
-      "\"\<minutes\>\"", ",", "\"\<hours\>\"", ",", "\"\<days\>\"", ",", 
-      "\"\<weeks\>\"", ",", "\"\<months\>\"", ",", "\"\<years\>\"", ",", 
-      "\"\<decades\>\"", ",", "\"\<centuries\>\"", ",", "\"\<millennia\>\"", 
-      ",", "\"\<megayears\>\"", ",", "\"\<gigayears\>\"", ",", 
-      "\"\<terayears\>\"", ",", "\"\<petayears\>\"", ",", "\"\<exayears\>\"", 
+     RowBox[{"\"\<qs\>\"", ",", "\"\<rs\>\"", ",", "\"\<ys\>\"", 
+      ",", "\"\<zs\>\"", ",", "\"\<as\>\"", ",", "\"\<fs\>\"", 
+      ",", "\"\<ps\>\"", ",", "\"\<ns\>\"", ",", "\"\<\[Micro]s\>\"", 
+      ",", "\"\<ms\>\"", ",", "\"\<cs\>\"", ",", "\"\<ds\>\"", 
+      ",", "\"\<s\>\"", ",", "\"\<minutes\>\"", ",", "\"\<hours\>\"", 
+      ",", "\"\<days\>\"", ",", "\"\<weeks\>\"", ",", "\"\<months\>\"", 
+      ",", "\"\<years\>\"", ",", "\"\<decades\>\"", ",", "\"\<centuries\>\"", 
+      ",", "\"\<millennia\>\"", ",", "\"\<megayears\>\"", 
+      ",", "\"\<gigayears\>\"", ",", "\"\<terayears\>\"", 
+      ",", "\"\<petayears\>\"", ",", "\"\<exayears\>\"", 
       ",", "\"\<zettayears\>\"", ",", "\"\<yottayears\>\""}], "}"}]}], ";"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
@@ -411,7 +385,6 @@ Cell[BoxData[{
                     "]"}], ",", "\[IndentingNewLine]", "\"\<LongForm\>\""}], 
                   "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
                  "TraditionalForm"}], "\[IndentingNewLine]", "]"}],
-               
                FontColor->RGBColor[
                 0.396078431372549, 0.20784313725490197`, 0.06274509803921569]],
                ",", "\[IndentingNewLine]", 
@@ -524,8 +497,8 @@ Cell[BoxData[{
         RowBox[{"\"\<2^{8*\>\"", ",", 
          RowBox[{"ToString", "[", 
           RowBox[{"#2", "[", 
-           RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], 
-       ",", "\[IndentingNewLine]", 
+           RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], ",",
+        "\[IndentingNewLine]", 
        RowBox[{"getPrefixItem", "[", 
         RowBox[{"ta", "*", 
          RowBox[{"(", 
@@ -538,8 +511,7 @@ Cell[BoxData[{
         "]"}]}], "\[IndentingNewLine]", "}"}], "&"}], ",", 
     "\[IndentingNewLine]", "prefixes"}], "\[IndentingNewLine]", "]"}], 
   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", "TEMPERATURE", " ", "*)"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", "TEMPERATURE", " ", "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"maQuantity", ":=", 
@@ -549,36 +521,33 @@ Cell[BoxData[{
       "]"}], "[", 
      RowBox[{"EntityProperty", "[", 
       RowBox[{"\"\<PhysicalConstant\>\"", ",", "\"\<Value\>\""}], "]"}], 
-     "]"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
+     "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"ma", ":=", 
-    RowBox[{"QuantityMagnitude", "[", "maQuantity", "]"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+    RowBox[{"QuantityMagnitude", "[", "maQuantity", "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"UnitAdjust", ":=", 
    RowBox[{"ResourceFunction", "[", "\"\<UnitAdjust\>\"", "]"}]}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"temperatureUnits", "=", 
     RowBox[{"{", 
-     RowBox[{
-     "\"\<qK\>\"", ",", "\"\<rK\>\"", ",", "\"\<yK\>\"", ",", "\"\<zK\>\"", 
-      ",", "\"\<aK\>\"", ",", "\"\<fK\>\"", ",", "\"\<pK\>\"", ",", 
-      "\"\<nK\>\"", ",", "\"\<\[Micro]K\>\"", ",", "\"\<mK\>\"", ",", 
-      "\"\<cK\>\"", ",", "\"\<dK\>\"", ",", "\"\<K\>\"", ",", 
-      "\"\<dekakelvins\>\"", ",", "\"\<hectokelvins\>\"", ",", 
-      "\"\<kilokelvins\>\"", ",", "\"\<megakelvins\>\"", ",", 
-      "\"\<gigakelvins\>\"", ",", "\"\<terakelvins\>\"", ",", 
-      "\"\<petakelvins\>\"", ",", "\"\<exakelvins\>\"", ",", 
-      "\"\<zettakelvins\>\"", ",", "\"\<yottakelvins\>\"", ",", 
-      "\"\<ronnakelvins\>\"", ",", "\"\<quettakelvins\>\""}], "}"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+     RowBox[{"\"\<qK\>\"", ",", "\"\<rK\>\"", ",", "\"\<yK\>\"", 
+      ",", "\"\<zK\>\"", ",", "\"\<aK\>\"", ",", "\"\<fK\>\"", 
+      ",", "\"\<pK\>\"", ",", "\"\<nK\>\"", ",", "\"\<\[Micro]K\>\"", 
+      ",", "\"\<mK\>\"", ",", "\"\<cK\>\"", ",", "\"\<dK\>\"", 
+      ",", "\"\<K\>\"", ",", "\"\<dekakelvins\>\"", 
+      ",", "\"\<hectokelvins\>\"", ",", "\"\<kilokelvins\>\"", 
+      ",", "\"\<megakelvins\>\"", ",", "\"\<gigakelvins\>\"", 
+      ",", "\"\<terakelvins\>\"", ",", "\"\<petakelvins\>\"", 
+      ",", "\"\<exakelvins\>\"", ",", "\"\<zettakelvins\>\"", 
+      ",", "\"\<yottakelvins\>\"", ",", "\"\<ronnakelvins\>\"", 
+      ",", "\"\<quettakelvins\>\""}], "}"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
-   RowBox[{"baseTemperatureUnit", "=", "\"\<Kelvins\>\""}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+   RowBox[{"baseTemperatureUnit", "=", "\"\<Kelvins\>\""}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -594,9 +563,9 @@ Cell[BoxData[{
             RowBox[{"x", ",", "baseTemperatureUnit"}], "]"}], ",", 
            "temperatureUnits", ",", 
            RowBox[{"Method", "->", 
-            RowBox[{"\"\<LogCutoff\>\"", "->", "1"}]}]}], "]"}], "]"}], ",", 
-        "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], "]"}]}], ";"}],
-   "\[IndentingNewLine]"}], "\n", 
+            RowBox[{"\"\<LogCutoff\>\"", "->", "1"}]}]}], "]"}], "]"}], 
+        ",", "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], "]"}]}], 
+   ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"availableTemperatureUnits", ":=", 
@@ -616,8 +585,8 @@ Cell[BoxData[{
                  RowBox[{
                   RowBox[{"NumberForm", "[", 
                    RowBox[{"Quantity", "[", 
-                    RowBox[{"1", ",", "#"}], "]"}], "]"}], ",", 
-                  "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], 
+                    RowBox[{"1", ",", "#"}], "]"}], "]"}], 
+                  ",", "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], 
                "]"}], ",", "\[IndentingNewLine]", 
               RowBox[{"ToString", "[", 
                RowBox[{
@@ -627,8 +596,7 @@ Cell[BoxData[{
                    RowBox[{"UnitAdjust", "[", 
                     RowBox[{
                     RowBox[{"Quantity", "[", 
-                    RowBox[{"1", ",", "#"}], "]"}], ",", "temperatureUnits", 
-                    ",", 
+                    RowBox[{"1", ",", "#"}], "]"}], ",", "temperatureUnits", ",", 
                     RowBox[{"Method", "->", 
                     RowBox[{"\"\<LogCutoff\>\"", "->", "1"}]}]}], "]"}], 
                    "]"}], ",", "\"\<LongForm\>\""}], "]"}], ",", 
@@ -678,9 +646,9 @@ Cell[BoxData[{
            RowBox[{"[", "1", "]"}], "]"}], "[", 
           RowBox[{"[", "4", "]"}], "]"}], "]"}], "&"}]}], 
       "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+  "\n"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"getPrefixItem", "[", "ma", "]"}], "\[IndentingNewLine]"}], "\n", 
+  RowBox[{"getPrefixItem", "[", "ma", "]"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"MapIndexed", "[", "\[IndentingNewLine]", 
    RowBox[{
@@ -691,8 +659,8 @@ Cell[BoxData[{
         RowBox[{"\"\<2^{8*\>\"", ",", 
          RowBox[{"ToString", "[", 
           RowBox[{"#2", "[", 
-           RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], 
-       ",", "\[IndentingNewLine]", 
+           RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], ",",
+        "\[IndentingNewLine]", 
        RowBox[{"getPrefixItem", "[", 
         RowBox[{"ma", "/", 
          RowBox[{"(", 
@@ -706,63 +674,58 @@ Cell[BoxData[{
     "\[IndentingNewLine]", 
     RowBox[{"prefixes", "//", "Reverse"}]}], "\[IndentingNewLine]", "]"}], 
   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", "MASS", " ", "*)"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", "MASS", " ", "*)"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"maQuantity", ":=", 
     RowBox[{
      RowBox[{"Entity", "[", 
-      RowBox[{
-      "\"\<PhysicalConstant\>\"", ",", 
-       "\"\<CosmologicalQuantumPointMass\>\""}], "]"}], "[", 
+      RowBox[{"\"\<PhysicalConstant\>\"", 
+       ",", "\"\<CosmologicalQuantumPointMass\>\""}], "]"}], "[", 
      RowBox[{"EntityProperty", "[", 
       RowBox[{"\"\<PhysicalConstant\>\"", ",", "\"\<Value\>\""}], "]"}], 
-     "]"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
+     "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"ma", ":=", 
-    RowBox[{"QuantityMagnitude", "[", "maQuantity", "]"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+    RowBox[{"QuantityMagnitude", "[", "maQuantity", "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"UnitAdjust", ":=", 
-   RowBox[{"ResourceFunction", "[", "\"\<UnitAdjust\>\"", "]"}]}], 
-  "\[IndentingNewLine]"}], "\n", 
+   RowBox[{"ResourceFunction", "[", "\"\<UnitAdjust\>\"", "]"}]}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"massUnits", "=", 
     RowBox[{"{", 
-     RowBox[{
-     "\"\<qg\>\"", ",", "\"\<rg\>\"", ",", "\"\<yg\>\"", ",", "\"\<zg\>\"", 
-      ",", "\"\<ag\>\"", ",", "\"\<fg\>\"", ",", "\"\<pg\>\"", ",", 
-      "\"\<ng\>\"", ",", "\"\<\[Micro]g\>\"", ",", "\"\<mg\>\"", ",", 
-      "\"\<cg\>\"", ",", "\"\<dg\>\"", ",", "\"\<g\>\"", ",", 
-      "\"\<dekagrams\>\"", ",", "\"\<hectograms\>\"", ",", 
-      "\"\<kilograms\>\"", ",", "\"\<megagrams\>\"", ",", "\"\<gigagrams\>\"",
-       ",", "\"\<teragrams\>\"", ",", "\"\<petagrams\>\"", ",", 
-      "\"\<exagrams\>\"", ",", "\"\<zettagrams\>\"", ",", 
-      "\"\<yottagrams\>\"", ",", "\"\<ronnagrams\>\"", ",", 
-      "\"\<quettagrams\>\"", ",", "\"\<ElectronMass\>\"", ",", 
-      "\"\<eV/c^2\>\"", ",", "\"\<keV/c^2\>\"", ",", "\"\<AtomicMassUnit\>\"",
-       ",", "\"\<MuonMass\>\"", ",", "\"\<ProtonMass\>\"", ",", 
-      "\"\<NeutronMass\>\"", ",", "\"\<TauMass\>\"", ",", 
-      "\"\<DeuteronMass\>\"", ",", "\"\<AlphaParticleMass\>\"", ",", 
-      "\"\<WBosonMass\>\"", ",", "\"\<ZBosonMass\>\"", ",", 
-      "\"\<HiggsBosonMass\>\"", ",", "\"\<PlanckMass\>\"", ",", 
-      "\"\<MoonMass\>\"", ",", "\"\<MercuryMass\>\"", ",", "\"\<MarsMass\>\"",
-       ",", "\"\<VenusMass\>\"", ",", "\"\<EarthMass\>\"", ",", 
-      "\"\<JupiterMass\>\"", ",", "\"\<SaturnMass\>\"", ",", 
-      "\"\<UranusMass\>\"", ",", "\"\<NeptuneMass\>\"", ",", 
-      "\"\<SolarMass\>\"", ",", "\"\<GravitySeconds\>\"", ",", 
-      "\"\<UniverseMass\>\"", ",", "\"\<UniverseColdDarkMatterMass\>\"", ",", 
-      "\"\<VacuumDominatedUniverseMassScale\>\"", ",", 
-      "\"\<GalacticMassScale\>\"", ",", 
-      "\"\<HorizonMassScaleAtEquality\>\""}], "}"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+     RowBox[{"\"\<qg\>\"", ",", "\"\<rg\>\"", ",", "\"\<yg\>\"", 
+      ",", "\"\<zg\>\"", ",", "\"\<ag\>\"", ",", "\"\<fg\>\"", 
+      ",", "\"\<pg\>\"", ",", "\"\<ng\>\"", ",", "\"\<\[Micro]g\>\"", 
+      ",", "\"\<mg\>\"", ",", "\"\<cg\>\"", ",", "\"\<dg\>\"", 
+      ",", "\"\<g\>\"", ",", "\"\<dekagrams\>\"", ",", "\"\<hectograms\>\"", 
+      ",", "\"\<kilograms\>\"", ",", "\"\<megagrams\>\"", 
+      ",", "\"\<gigagrams\>\"", ",", "\"\<teragrams\>\"", 
+      ",", "\"\<petagrams\>\"", ",", "\"\<exagrams\>\"", 
+      ",", "\"\<zettagrams\>\"", ",", "\"\<yottagrams\>\"", 
+      ",", "\"\<ronnagrams\>\"", ",", "\"\<quettagrams\>\"", 
+      ",", "\"\<ElectronMass\>\"", ",", "\"\<eV/c^2\>\"", 
+      ",", "\"\<keV/c^2\>\"", ",", "\"\<AtomicMassUnit\>\"", 
+      ",", "\"\<MuonMass\>\"", ",", "\"\<ProtonMass\>\"", 
+      ",", "\"\<NeutronMass\>\"", ",", "\"\<TauMass\>\"", 
+      ",", "\"\<DeuteronMass\>\"", ",", "\"\<AlphaParticleMass\>\"", 
+      ",", "\"\<WBosonMass\>\"", ",", "\"\<ZBosonMass\>\"", 
+      ",", "\"\<HiggsBosonMass\>\"", ",", "\"\<PlanckMass\>\"", 
+      ",", "\"\<MoonMass\>\"", ",", "\"\<MercuryMass\>\"", 
+      ",", "\"\<MarsMass\>\"", ",", "\"\<VenusMass\>\"", 
+      ",", "\"\<EarthMass\>\"", ",", "\"\<JupiterMass\>\"", 
+      ",", "\"\<SaturnMass\>\"", ",", "\"\<UranusMass\>\"", 
+      ",", "\"\<NeptuneMass\>\"", ",", "\"\<SolarMass\>\"", 
+      ",", "\"\<GravitySeconds\>\"", ",", "\"\<UniverseMass\>\"", 
+      ",", "\"\<UniverseColdDarkMatterMass\>\"", 
+      ",", "\"\<VacuumDominatedUniverseMassScale\>\"", 
+      ",", "\"\<GalacticMassScale\>\"", 
+      ",", "\"\<HorizonMassScaleAtEquality\>\""}], "}"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
-   RowBox[{"baseMassUnit", "=", "\"\<kg\>\""}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+   RowBox[{"baseMassUnit", "=", "\"\<kg\>\""}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -778,9 +741,9 @@ Cell[BoxData[{
             RowBox[{"x", ",", "baseMassUnit"}], "]"}], ",", "massUnits", ",", 
            
            RowBox[{"Method", "->", 
-            RowBox[{"\"\<LogCutoff\>\"", "->", "1"}]}]}], "]"}], "]"}], ",", 
-        "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], "]"}]}], ";"}],
-   "\[IndentingNewLine]"}], "\n", 
+            RowBox[{"\"\<LogCutoff\>\"", "->", "1"}]}]}], "]"}], "]"}], 
+        ",", "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], "]"}]}], 
+   ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"availableMassUnits", ":=", 
@@ -800,8 +763,8 @@ Cell[BoxData[{
                  RowBox[{
                   RowBox[{"NumberForm", "[", 
                    RowBox[{"Quantity", "[", 
-                    RowBox[{"1", ",", "#"}], "]"}], "]"}], ",", 
-                  "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], 
+                    RowBox[{"1", ",", "#"}], "]"}], "]"}], 
+                  ",", "\"\<LongForm\>\""}], "]"}], ",", "TraditionalForm"}], 
                "]"}], ",", 
               RowBox[{"ToString", "[", 
                RowBox[{
@@ -858,7 +821,7 @@ Cell[BoxData[{
           RowBox[{"[", "4", "]"}], "]"}], "]"}], "&"}]}], "]"}], "]"}]}], 
    ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"getPrefixItem", "[", "ma", "]"}], "\n"}], "\[IndentingNewLine]", 
+  RowBox[{"getPrefixItem", "[", "ma", "]"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{"MapIndexed", "[", 
   RowBox[{
    RowBox[{
@@ -868,8 +831,7 @@ Cell[BoxData[{
        RowBox[{"\"\<2^{8*\>\"", ",", 
         RowBox[{"ToString", "[", 
          RowBox[{"#2", "[", 
-          RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], 
-      ",", 
+          RowBox[{"[", "1", "]"}], "]"}], "]"}], ",", "\"\<}\>\""}], "]"}], ",", 
       RowBox[{"getPrefixItem", "[", 
        RowBox[{"ma", "*", 
         RowBox[{"(", 
@@ -1065,9 +1027,12 @@ Cell[BoxData[{
    3.938386693672147*^9, 3.938386704617092*^9}, {3.938392541468913*^9, 
    3.9383925450498323`*^9}, 3.938392837899105*^9, {3.938396756754339*^9, 
    3.9383967645545397`*^9}, 3.9383969092099667`*^9, 3.938397337225769*^9, 
-   3.938397591822721*^9, 3.938407653110448*^9},
+   3.938397591822721*^9, 3.938407653110448*^9, {3.9498084014549007`*^9, 
+   3.949808416849801*^9}, {3.949809133124784*^9, 3.949809134104349*^9}, {
+   3.949809618807411*^9, 3.949809619461631*^9}, {3.9498129731908827`*^9, 
+   3.949812981353071*^9}, {3.949816239494445*^9, 3.949816240598454*^9}},
  CellLabel->
-  "In[863]:=",ExpressionUUID->"d64d9579-91b7-4ca7-aca1-37558f1dedad"],
+  "In[149]:=",ExpressionUUID->"d64d9579-91b7-4ca7-aca1-37558f1dedad"],
 
 Cell[BoxData["\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*\
 InterpretationBox[\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
@@ -1176,16 +1141,18 @@ Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"], \
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407657252276*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.949816242457923*^9},
  CellLabel->
-  "Out[872]=",ExpressionUUID->"5bd0a814-f648-4761-bcf4-b739e7e4c137"],
+  "Out[157]=",ExpressionUUID->"3ba17cca-4276-4de0-a528-e3a0f495d0af"],
 
 Cell[BoxData[
  TemplateBox[{
   "NumberForm", "sigz", 
    "\"Number precision is lower than number of digits shown; padding with \
-zeros.\"", 2, 873, 158, 18278177911448847715, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
+zeros.\"", 2, 158, 21, 32444833362437747574, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
  CellChangeTimes->{
   3.937847241810117*^9, 3.937848166548295*^9, 3.937848216778674*^9, {
    3.93784825825947*^9, 3.937848279337888*^9}, 3.9378483429590693`*^9, 
@@ -1248,10 +1215,12 @@ zeros.\"", 2, 873, 158, 18278177911448847715, "Local"},
    3.938381610045158*^9, 3.938381658426128*^9, 3.938382280272854*^9, 
    3.938386233714837*^9, 3.938386373317342*^9, 3.938392550391767*^9, 
    3.938392840103558*^9, 3.9383967660185204`*^9, 3.9383969103704863`*^9, 
-   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9},
+   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9, 
+   3.949808422318532*^9, 3.949809136046365*^9, 3.9498096210276823`*^9, 
+   3.949812982577992*^9, 3.949816242535736*^9},
  CellLabel->
   "During evaluation of \
-In[863]:=",ExpressionUUID->"7b6ece54-1ad5-4f49-8dc5-dadb945a5f44"],
+In[149]:=",ExpressionUUID->"c0de75ae-e9d4-4a71-97e1-0bf6e0ea1f3b"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -1279,7 +1248,7 @@ quectometers\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*3}\"\>", 
+    RowBox[{"\<\"je\"\>", ",", "\<\"2^{8*3}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1290,7 +1259,7 @@ rontometers\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wo\"\>", ",", "\<\"2^{8*4}\"\>", 
+    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*4}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1356,7 +1325,7 @@ femtometers\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*10}\"\>", 
+    RowBox[{"\<\"ju\"\>", ",", "\<\"2^{8*10}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1367,7 +1336,7 @@ picometers\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"we\"\>", ",", "\<\"2^{8*11}\"\>", 
+    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*11}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1433,7 +1402,7 @@ kilometers\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*17}\"\>", 
+    RowBox[{"\<\"ji\"\>", ",", "\<\"2^{8*17}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1444,7 +1413,7 @@ milliseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wu\"\>", ",", "\<\"2^{8*18}\"\>", 
+    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*18}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1521,7 +1490,7 @@ megaparsecs\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wi\"\>", ",", "\<\"2^{8*25}\"\>", 
+    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*25}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1598,7 +1567,7 @@ exaparsecs\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*32}\"\>", 
+    RowBox[{"\<\"jo\"\>", ",", "\<\"2^{8*32}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1646,7 +1615,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*35}\"\>", 
+    RowBox[{"\<\"kuje\"\>", ",", "\<\"2^{8*35}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1662,7 +1631,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwo\"\>", ",", "\<\"2^{8*36}\"\>", 
+    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*36}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1758,7 +1727,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*42}\"\>", 
+    RowBox[{"\<\"kuju\"\>", ",", "\<\"2^{8*42}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1774,7 +1743,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwe\"\>", ",", "\<\"2^{8*43}\"\>", 
+    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*43}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1870,7 +1839,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \"], Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}],
      "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*49}\"\>", 
+    RowBox[{"\<\"kuji\"\>", ",", "\<\"2^{8*49}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1886,7 +1855,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwu\"\>", ",", "\<\"2^{8*50}\"\>", 
+    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*50}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1998,7 +1967,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\"exaparsecs\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwi\"\>", ",", "\<\"2^{8*57}\"\>", 
+    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*57}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2110,7 +2079,7 @@ SuperscriptBox[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"10\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*64}\"\>", 
+    RowBox[{"\<\"kujo\"\>", ",", "\<\"2^{8*64}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2223,9 +2192,10 @@ TraditionalForm]\\)\"\>"}], "}"}]}], "}"}]], "Output",
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407657535831*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.94981624261058*^9},
  CellLabel->
-  "Out[873]=",ExpressionUUID->"4723a8e8-faa3-4b4a-9b25-fa3782c5b09c"],
+  "Out[158]=",ExpressionUUID->"9fa64753-8003-4139-8cd4-cea0c992658f"],
 
 Cell[BoxData["\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*\
 InterpretationBox[\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
@@ -2339,16 +2309,18 @@ TraditionalForm]\\)\"\>"], "Output",
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407667183713*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.949816242620934*^9},
  CellLabel->
-  "Out[881]=",ExpressionUUID->"cafc21d2-6e4a-496d-a665-9f188d9b5dd6"],
+  "Out[166]=",ExpressionUUID->"1fa31f40-4cb4-4adc-8654-e6ae6899d82a"],
 
 Cell[BoxData[
  TemplateBox[{
   "NumberForm", "sigz", 
    "\"Number precision is lower than number of digits shown; padding with \
-zeros.\"", 2, 882, 159, 18278177911448847715, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
+zeros.\"", 2, 167, 22, 32444833362437747574, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
  CellChangeTimes->{
   3.937847241810117*^9, 3.937848166548295*^9, 3.937848216778674*^9, {
    3.93784825825947*^9, 3.937848279337888*^9}, 3.9378483429590693`*^9, 
@@ -2411,10 +2383,12 @@ zeros.\"", 2, 882, 159, 18278177911448847715, "Local"},
    3.938381610045158*^9, 3.938381658426128*^9, 3.938382280272854*^9, 
    3.938386233714837*^9, 3.938386373317342*^9, 3.938392550391767*^9, 
    3.938392840103558*^9, 3.9383967660185204`*^9, 3.9383969103704863`*^9, 
-   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407667343691*^9},
+   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9, 
+   3.949808422318532*^9, 3.949809136046365*^9, 3.9498096210276823`*^9, 
+   3.949812982577992*^9, 3.949816242686542*^9},
  CellLabel->
   "During evaluation of \
-In[863]:=",ExpressionUUID->"33cff5c8-448b-4f9e-906f-5dc41f245ee8"],
+In[149]:=",ExpressionUUID->"6ac99c44-30d8-41c1-b06b-b57a44473e15"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -2452,7 +2426,7 @@ quectoseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectoseconds\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*3}\"\>", 
+    RowBox[{"\<\"je\"\>", ",", "\<\"2^{8*3}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2468,7 +2442,7 @@ quectoseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectoseconds\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wo\"\>", ",", "\<\"2^{8*4}\"\>", 
+    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*4}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2534,7 +2508,7 @@ zeptoseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*10}\"\>", 
+    RowBox[{"\<\"ju\"\>", ",", "\<\"2^{8*10}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2545,7 +2519,7 @@ zeptoseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"we\"\>", ",", "\<\"2^{8*11}\"\>", 
+    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*11}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2611,7 +2585,7 @@ microseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*17}\"\>", 
+    RowBox[{"\<\"ji\"\>", ",", "\<\"2^{8*17}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2622,7 +2596,7 @@ milliseconds\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wu\"\>", ",", "\<\"2^{8*18}\"\>", 
+    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*18}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2699,7 +2673,7 @@ megayears\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wi\"\>", ",", "\<\"2^{8*25}\"\>", 
+    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*25}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2776,7 +2750,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*32}\"\>", 
+    RowBox[{"\<\"jo\"\>", ",", "\<\"2^{8*32}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2814,7 +2788,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 years\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*35}\"\>", 
+    RowBox[{"\<\"kuje\"\>", ",", "\<\"2^{8*35}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2830,7 +2804,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 years\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwo\"\>", ",", "\<\"2^{8*36}\"\>", 
+    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*36}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2926,7 +2900,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 years\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*42}\"\>", 
+    RowBox[{"\<\"kuju\"\>", ",", "\<\"2^{8*42}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -2942,7 +2916,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 years\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwe\"\>", ",", "\<\"2^{8*43}\"\>", 
+    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*43}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3038,7 +3012,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*49}\"\>", 
+    RowBox[{"\<\"kuji\"\>", ",", "\<\"2^{8*49}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3054,7 +3028,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 years\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwu\"\>", ",", "\<\"2^{8*50}\"\>", 
+    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*50}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3166,7 +3140,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwi\"\>", ",", "\<\"2^{8*57}\"\>", 
+    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*57}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3279,7 +3253,7 @@ years\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*64}\"\>", 
+    RowBox[{"\<\"kujo\"\>", ",", "\<\"2^{8*64}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3392,9 +3366,10 @@ Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}],
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.9384076674979877`*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.949816242760592*^9},
  CellLabel->
-  "Out[882]=",ExpressionUUID->"a0ed5bcf-28a8-40be-b267-dddd687b7149"],
+  "Out[167]=",ExpressionUUID->"c1b6ef8c-bf7e-4ef6-a907-69fc6a5fe727"],
 
 Cell[BoxData["\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*\
 InterpretationBox[\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
@@ -3503,15 +3478,16 @@ TraditionalForm]\\)\"\>"], "Output",
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407674565564*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.9498162427707443`*^9},
  CellLabel->
-  "Out[890]=",ExpressionUUID->"60651bb1-35a0-47cb-8cba-2e9af29beae5"],
+  "Out[175]=",ExpressionUUID->"7be70cc1-f4dc-49fa-9e2b-67a5e136b561"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"{", 
-    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*1}\"\>", 
+    RowBox[{"\<\"kujo\"\>", ",", "\<\"2^{8*1}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3588,7 +3564,7 @@ petakelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwi\"\>", ",", "\<\"2^{8*8}\"\>", 
+    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*8}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3665,7 +3641,7 @@ centikelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwu\"\>", ",", "\<\"2^{8*15}\"\>", 
+    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*15}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3676,7 +3652,7 @@ millikelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*16}\"\>", 
+    RowBox[{"\<\"kuji\"\>", ",", "\<\"2^{8*16}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3742,7 +3718,7 @@ attokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwe\"\>", ",", "\<\"2^{8*22}\"\>", 
+    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*22}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3753,7 +3729,7 @@ zeptokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*23}\"\>", 
+    RowBox[{"\<\"kuju\"\>", ",", "\<\"2^{8*23}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3824,7 +3800,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwo\"\>", ",", "\<\"2^{8*29}\"\>", 
+    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*29}\"\>", 
      ",", \
 "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\\\\\"\\\\\
 \\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\
@@ -3841,7 +3817,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*30}\"\>", 
+    RowBox[{"\<\"kuje\"\>", ",", "\<\"2^{8*30}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3889,7 +3865,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \"], Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}],
      "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*33}\"\>", 
+    RowBox[{"\<\"jo\"\>", ",", "\<\"2^{8*33}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4001,7 +3977,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wi\"\>", ",", "\<\"2^{8*40}\"\>", 
+    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*40}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4113,7 +4089,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wu\"\>", ",", "\<\"2^{8*47}\"\>", 
+    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*47}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4129,7 +4105,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*48}\"\>", 
+    RowBox[{"\<\"ji\"\>", ",", "\<\"2^{8*48}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4225,7 +4201,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"we\"\>", ",", "\<\"2^{8*54}\"\>", 
+    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*54}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4241,7 +4217,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*55}\"\>", 
+    RowBox[{"\<\"ju\"\>", ",", "\<\"2^{8*55}\"\>", 
      ",", \
 "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\\\\\"\\\\\
 \\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\
@@ -4338,7 +4314,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wo\"\>", ",", "\<\"2^{8*61}\"\>", 
+    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*61}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4354,7 +4330,7 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \\\\\\\"quectokelvins\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*62}\"\>", 
+    RowBox[{"\<\"je\"\>", ",", "\<\"2^{8*62}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4499,9 +4475,10 @@ quectokelvins\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407674843596*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.949816242901742*^9},
  CellLabel->
-  "Out[891]=",ExpressionUUID->"6d5c98e3-bdd9-4d09-a1a6-4c74426e79db"],
+  "Out[176]=",ExpressionUUID->"a7f49edc-3713-43eb-a263-5254f5d5a071"],
 
 Cell[BoxData["\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*\
 InterpretationBox[\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
@@ -4610,16 +4587,18 @@ False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"], "Output",
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407682185368*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.949816242913067*^9},
  CellLabel->
-  "Out[899]=",ExpressionUUID->"a315a8d7-1332-472f-a22e-660622a835b4"],
+  "Out[184]=",ExpressionUUID->"ce715008-2c63-48d8-b39a-0cb3f8119527"],
 
 Cell[BoxData[
  TemplateBox[{
   "NumberForm", "sigz", 
    "\"Number precision is lower than number of digits shown; padding with \
-zeros.\"", 2, 900, 160, 18278177911448847715, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
+zeros.\"", 2, 185, 23, 32444833362437747574, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
  CellChangeTimes->{
   3.937847241810117*^9, 3.937848166548295*^9, 3.937848216778674*^9, {
    3.93784825825947*^9, 3.937848279337888*^9}, 3.9378483429590693`*^9, 
@@ -4682,17 +4661,20 @@ zeros.\"", 2, 900, 160, 18278177911448847715, "Local"},
    3.938381610045158*^9, 3.938381658426128*^9, 3.938382280272854*^9, 
    3.938386233714837*^9, 3.938386373317342*^9, 3.938392550391767*^9, 
    3.938392840103558*^9, 3.9383967660185204`*^9, 3.9383969103704863`*^9, 
-   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.9384076823297863`*^9},
+   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9, 
+   3.949808422318532*^9, 3.949809136046365*^9, 3.9498096210276823`*^9, 
+   3.949812982577992*^9, 3.9498162429853287`*^9},
  CellLabel->
   "During evaluation of \
-In[863]:=",ExpressionUUID->"0d7ce3fb-ed58-4147-a066-602d4f37988b"],
+In[149]:=",ExpressionUUID->"453abc5c-3900-423d-b5bc-ad8e67eeca42"],
 
 Cell[BoxData[
  TemplateBox[{
   "NumberForm", "sigz", 
    "\"Number precision is lower than number of digits shown; padding with \
-zeros.\"", 2, 900, 161, 18278177911448847715, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
+zeros.\"", 2, 185, 24, 32444833362437747574, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
  CellChangeTimes->{
   3.937847241810117*^9, 3.937848166548295*^9, 3.937848216778674*^9, {
    3.93784825825947*^9, 3.937848279337888*^9}, 3.9378483429590693`*^9, 
@@ -4755,17 +4737,20 @@ zeros.\"", 2, 900, 161, 18278177911448847715, "Local"},
    3.938381610045158*^9, 3.938381658426128*^9, 3.938382280272854*^9, 
    3.938386233714837*^9, 3.938386373317342*^9, 3.938392550391767*^9, 
    3.938392840103558*^9, 3.9383967660185204`*^9, 3.9383969103704863`*^9, 
-   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.93840768233962*^9},
+   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9, 
+   3.949808422318532*^9, 3.949809136046365*^9, 3.9498096210276823`*^9, 
+   3.949812982577992*^9, 3.9498162429977083`*^9},
  CellLabel->
   "During evaluation of \
-In[863]:=",ExpressionUUID->"13aff7d3-9af8-4a6f-8257-ad0ddbc75e9e"],
+In[149]:=",ExpressionUUID->"05d72afa-5314-49b4-a411-efb970c2f19d"],
 
 Cell[BoxData[
  TemplateBox[{
   "NumberForm", "sigz", 
    "\"Number precision is lower than number of digits shown; padding with \
-zeros.\"", 2, 900, 162, 18278177911448847715, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
+zeros.\"", 2, 185, 25, 32444833362437747574, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
  CellChangeTimes->{
   3.937847241810117*^9, 3.937848166548295*^9, 3.937848216778674*^9, {
    3.93784825825947*^9, 3.937848279337888*^9}, 3.9378483429590693`*^9, 
@@ -4828,18 +4813,21 @@ zeros.\"", 2, 900, 162, 18278177911448847715, "Local"},
    3.938381610045158*^9, 3.938381658426128*^9, 3.938382280272854*^9, 
    3.938386233714837*^9, 3.938386373317342*^9, 3.938392550391767*^9, 
    3.938392840103558*^9, 3.9383967660185204`*^9, 3.9383969103704863`*^9, 
-   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407682358346*^9},
+   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9, 
+   3.949808422318532*^9, 3.949809136046365*^9, 3.9498096210276823`*^9, 
+   3.949812982577992*^9, 3.949816243001998*^9},
  CellLabel->
   "During evaluation of \
-In[863]:=",ExpressionUUID->"06634750-e3c4-49f4-b5ed-ad7c8cdfeefe"],
+In[149]:=",ExpressionUUID->"3a88d1a3-c7b4-4dae-934c-0cd65525b7a3"],
 
 Cell[BoxData[
  TemplateBox[{
   "General", "stop", 
    "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NumberForm\\\", \
 \\\"::\\\", \\\"sigz\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 900, 163, 18278177911448847715, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
+this calculation.\"", 2, 185, 26, 32444833362437747574, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
  CellChangeTimes->{
   3.937847241810117*^9, 3.937848166548295*^9, 3.937848216778674*^9, {
    3.93784825825947*^9, 3.937848279337888*^9}, 3.9378483429590693`*^9, 
@@ -4902,10 +4890,12 @@ this calculation.\"", 2, 900, 163, 18278177911448847715, "Local"},
    3.938381610045158*^9, 3.938381658426128*^9, 3.938382280272854*^9, 
    3.938386233714837*^9, 3.938386373317342*^9, 3.938392550391767*^9, 
    3.938392840103558*^9, 3.9383967660185204`*^9, 3.9383969103704863`*^9, 
-   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407682360743*^9},
+   3.9383973385466137`*^9, 3.9383975931871033`*^9, 3.938407657395204*^9, 
+   3.949808422318532*^9, 3.949809136046365*^9, 3.9498096210276823`*^9, 
+   3.949812982577992*^9, 3.949816243003231*^9},
  CellLabel->
   "During evaluation of \
-In[863]:=",ExpressionUUID->"76f23310-cc89-445d-9066-cc41361726de"],
+In[149]:=",ExpressionUUID->"bdc18fbd-8f58-4e7a-b194-52069947339e"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -4933,7 +4923,7 @@ quectograms\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*3}\"\>", 
+    RowBox[{"\<\"je\"\>", ",", "\<\"2^{8*3}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -4945,7 +4935,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 speed of light squared\\\\\\\"], Rule[Editable, False]]\\\\)\\\", \
 NumberForm], TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wo\"\>", ",", "\<\"2^{8*4}\"\>", 
+    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*4}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5011,7 +5001,7 @@ femtograms\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*10}\"\>", 
+    RowBox[{"\<\"ju\"\>", ",", "\<\"2^{8*10}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5022,7 +5012,7 @@ RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"we\"\>", ",", "\<\"2^{8*11}\"\>", 
+    RowBox[{"\<\"pe\"\>", ",", "\<\"2^{8*11}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5088,7 +5078,7 @@ RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*17}\"\>", 
+    RowBox[{"\<\"ji\"\>", ",", "\<\"2^{8*17}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5099,7 +5089,7 @@ RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wu\"\>", ",", "\<\"2^{8*18}\"\>", 
+    RowBox[{"\<\"pu\"\>", ",", "\<\"2^{8*18}\"\>", 
      ",", \
 "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\\\\\"\\\\\
 \\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\
@@ -5176,7 +5166,7 @@ zettagrams\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], 
     "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"wi\"\>", ",", "\<\"2^{8*25}\"\>", 
+    RowBox[{"\<\"pi\"\>", ",", "\<\"2^{8*25}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5253,7 +5243,7 @@ RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\"gravity\\\\\\\\[Hyphen]seconds\\\\\\\"], Rule[Editable, \
 False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"po\"\>", ",", "\<\"2^{8*32}\"\>", 
+    RowBox[{"\<\"jo\"\>", ",", "\<\"2^{8*32}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5286,7 +5276,7 @@ mass scales\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 \"], Rule[Editable, False]]\\\\)\\\", NumberForm], TraditionalForm]\\)\"\>"}],
      "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*35}\"\>", 
+    RowBox[{"\<\"kuje\"\>", ",", "\<\"2^{8*35}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5297,7 +5287,7 @@ mass scales at equality\\\\\\\\\\\\\\\"\\\\\\\", StringForm[\\\\\\\"`1` `2`\\\
 at equality\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwo\"\>", ",", "\<\"2^{8*36}\"\>", 
+    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*36}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5371,7 +5361,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 universe mass scales\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*42}\"\>", 
+    RowBox[{"\<\"kuju\"\>", ",", "\<\"2^{8*42}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5388,7 +5378,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 universe mass scales\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwe\"\>", ",", "\<\"2^{8*43}\"\>", 
+    RowBox[{"\<\"kupe\"\>", ",", "\<\"2^{8*43}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5488,7 +5478,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 universe mass scales\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*49}\"\>", 
+    RowBox[{"\<\"kuji\"\>", ",", "\<\"2^{8*49}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5505,7 +5495,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 universe mass scales\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwu\"\>", ",", "\<\"2^{8*50}\"\>", 
+    RowBox[{"\<\"kupu\"\>", ",", "\<\"2^{8*50}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5623,7 +5613,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 universe mass scales\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kuwi\"\>", ",", "\<\"2^{8*57}\"\>", 
+    RowBox[{"\<\"kupi\"\>", ",", "\<\"2^{8*57}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5740,7 +5730,7 @@ StringForm[\\\\\\\"`1` `2`\\\\\\\", \
 universe mass scales\\\\\\\"], Rule[Editable, False]]\\\\)\\\", NumberForm], \
 TraditionalForm]\\)\"\>"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"kupo\"\>", ",", "\<\"2^{8*64}\"\>", 
+    RowBox[{"\<\"kujo\"\>", ",", "\<\"2^{8*64}\"\>", 
      ",", "\<\"\\!\\(\\*FormBox[TagBox[\\\"\\\\!\\\\(\\\\*InterpretationBox[\\\
 \\\\\"\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\*\
 RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -5854,14 +5844,15 @@ TraditionalForm]\\)\"\>"}], "}"}]}], "}"}]], "Output",
    3.9383822802018213`*^9, 3.938386233579742*^9, 3.938386373257388*^9, 
    3.93839255023252*^9, 3.93839283997199*^9, 3.93839676601576*^9, 
    3.9383969102271547`*^9, 3.938397338402179*^9, 3.938397593038251*^9, 
-   3.938407682470292*^9},
+   3.938407657252276*^9, 3.949808422233292*^9, 3.949809135973031*^9, 
+   3.949809620948409*^9, 3.9498129825038853`*^9, 3.949816243060236*^9},
  CellLabel->
-  "Out[900]=",ExpressionUUID->"9e992124-92f9-4eb7-95d6-cc31facda927"]
+  "Out[185]=",ExpressionUUID->"2797c3bc-315e-4607-b172-280eda1aa788"]
 }, Open  ]]
 },
 WindowSize->{951, 968},
-WindowMargins->{{Automatic, -979}, {59, Automatic}},
-FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+WindowMargins->{{Automatic, -1320}, {Automatic, 15}},
+FrontEndVersion->"14.2 for Mac OS X ARM (64-bit) (December 26, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"6c7827e7-1c4f-466e-ba4f-29f34a7d283a"
 ]
@@ -5877,21 +5868,21 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[576, 22, 51651, 1047, 6157, "Input",ExpressionUUID->"d64d9579-91b7-4ca7-aca1-37558f1dedad"],
-Cell[52230, 1071, 7875, 109, 33, "Output",ExpressionUUID->"5bd0a814-f648-4761-bcf4-b739e7e4c137"],
-Cell[60108, 1182, 4878, 71, 26, "Message",ExpressionUUID->"7b6ece54-1ad5-4f49-8dc5-dadb945a5f44"],
-Cell[64989, 1255, 64093, 972, 626, "Output",ExpressionUUID->"4723a8e8-faa3-4b4a-9b25-fa3782c5b09c"],
-Cell[129085, 2229, 8254, 114, 33, "Output",ExpressionUUID->"cafc21d2-6e4a-496d-a665-9f188d9b5dd6"],
-Cell[137342, 2345, 4878, 71, 26, "Message",ExpressionUUID->"33cff5c8-448b-4f9e-906f-5dc41f245ee8"],
-Cell[142223, 2418, 64522, 978, 670, "Output",ExpressionUUID->"a0ed5bcf-28a8-40be-b267-dddd687b7149"],
-Cell[206748, 3398, 7882, 109, 33, "Output",ExpressionUUID->"60651bb1-35a0-47cb-8cba-2e9af29beae5"],
-Cell[214633, 3509, 65900, 994, 692, "Output",ExpressionUUID->"6d5c98e3-bdd9-4d09-a1a6-4c74426e79db"],
-Cell[280536, 4505, 7935, 109, 33, "Output",ExpressionUUID->"a315a8d7-1332-472f-a22e-660622a835b4"],
-Cell[288474, 4616, 4880, 71, 26, "Message",ExpressionUUID->"0d7ce3fb-ed58-4147-a066-602d4f37988b"],
-Cell[293357, 4689, 4877, 71, 26, "Message",ExpressionUUID->"13aff7d3-9af8-4a6f-8257-ad0ddbc75e9e"],
-Cell[298237, 4762, 4878, 71, 26, "Message",ExpressionUUID->"06634750-e3c4-49f4-b5ed-ad7c8cdfeefe"],
-Cell[303118, 4835, 4962, 72, 26, "Message",ExpressionUUID->"76f23310-cc89-445d-9066-cc41361726de"],
-Cell[308083, 4909, 62347, 949, 948, "Output",ExpressionUUID->"9e992124-92f9-4eb7-95d6-cc31facda927"]
+Cell[576, 22, 50467, 1012, 6034, "Input",ExpressionUUID->"d64d9579-91b7-4ca7-aca1-37558f1dedad"],
+Cell[51046, 1036, 7991, 110, 33, "Output",ExpressionUUID->"3ba17cca-4276-4de0-a528-e3a0f495d0af"],
+Cell[59040, 1148, 5010, 74, 26, "Message",ExpressionUUID->"c0de75ae-e9d4-4a71-97e1-0bf6e0ea1f3b"],
+Cell[64053, 1224, 64208, 973, 626, "Output",ExpressionUUID->"9fa64753-8003-4139-8cd4-cea0c992658f"],
+Cell[128264, 2199, 8370, 115, 33, "Output",ExpressionUUID->"1fa31f40-4cb4-4adc-8654-e6ae6899d82a"],
+Cell[136637, 2316, 5010, 74, 26, "Message",ExpressionUUID->"6ac99c44-30d8-41c1-b06b-b57a44473e15"],
+Cell[141650, 2392, 64636, 979, 626, "Output",ExpressionUUID->"c1b6ef8c-bf7e-4ef6-a907-69fc6a5fe727"],
+Cell[206289, 3373, 8000, 110, 33, "Output",ExpressionUUID->"7be70cc1-f4dc-49fa-9e2b-67a5e136b561"],
+Cell[214292, 3485, 66016, 995, 692, "Output",ExpressionUUID->"a7f49edc-3713-43eb-a263-5254f5d5a071"],
+Cell[280311, 4482, 8051, 110, 33, "Output",ExpressionUUID->"ce715008-2c63-48d8-b39a-0cb3f8119527"],
+Cell[288365, 4594, 5012, 74, 26, "Message",ExpressionUUID->"453abc5c-3900-423d-b5bc-ad8e67eeca42"],
+Cell[293380, 4670, 5012, 74, 26, "Message",ExpressionUUID->"05d72afa-5314-49b4-a411-efb970c2f19d"],
+Cell[298395, 4746, 5010, 74, 26, "Message",ExpressionUUID->"3a88d1a3-c7b4-4dae-934c-0cd65525b7a3"],
+Cell[303408, 4822, 5094, 75, 26, "Message",ExpressionUUID->"bdc18fbd-8f58-4e7a-b194-52069947339e"],
+Cell[308505, 4899, 62463, 950, 992, "Output",ExpressionUUID->"2797c3bc-315e-4607-b172-280eda1aa788"]
 }, Open  ]]
 }
 ]
