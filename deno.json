@@ -1,0 +1,48 @@
+{
+	"name": "@pumpn/u2s",
+	"version": "0.1.0",
+	"exports": "./u2s.js",
+	"tasks": {
+		"generate-prefixes": "deno run -R -W ./scripts/generate-prefixes.js",
+		"generate-prefixes-2": "deno run -R -W ./scripts/generate-prefixes-2.js",
+		"convert-mathematica-prefixes-to-markdown": "deno run -R -W ./scripts/convert-mathematica-prefixes-to-markdown.js"
+	},
+	"license": "MIT",
+	"imports": {
+		"@/": "./",
+		"@cliffy/ansi": "jsr:@cliffy/ansi@^1.0.0-rc.7",
+		"@pumpn/eslint-config": "jsr:@pumpn/eslint-config@^16.0.0",
+		"@radashi-org/radashi": "jsr:@radashi-org/radashi@^12.3.4",
+		"@std/assert": "jsr:@std/assert@1",
+		"@std/fs": "jsr:@std/fs@^1.0.4",
+		"@std/path": "jsr:@std/path@^1.0.6",
+		"@valibot/valibot": "jsr:@valibot/valibot@^1.0.0-rc.2",
+		"es-hangul": "npm:es-hangul@^2.3.1",
+		"hotscript": "npm:hotscript@^1.0.13",
+		"mathjs": "npm:mathjs@^14.2.1",
+		"type-fest": "npm:type-fest@^4.35.0"
+	},
+	"unstable": [
+		"temporal"
+	],
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"checkJs": true,
+		"exactOptionalPropertyTypes": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"noErrorTruncation": true,
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noPropertyAccessFromIndexSignature": false,
+		"noUncheckedIndexedAccess": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"strict": true
+	},
+	"nodeModulesDir": "none"
+}

@@ -1,0 +1,64 @@
+| mi | $2^{8*1}$ | $0.0041376\text{ quectometers}$ |
+| ku | $2^{8*2}$ | $1.0592\text{ quectometers}$ |
+| je | $2^{8*3}$ | $0.27116\text{ rontometers}$ |
+| po | $2^{8*4}$ | $69.42\text{ rontometers}$ |
+| ni | $2^{8*5}$ | $17.771\text{ yoctometers}$ |
+| tu | $2^{8*6}$ | $4.549\text{ zeptometers}$ |
+| le | $2^{8*7}$ | $1.1646\text{ attometers}$ |
+| so | $2^{8*8}$ | $0.29815\text{ femtometers}$ |
+| ki | $2^{8*9}$ | $76.33\text{ femtometers}$ |
+| ju | $2^{8*10}$ | $19.539\text{ picometers}$ |
+| pe | $2^{8*11}$ | $5.002\text{ nanometers}$ |
+| no | $2^{8*12}$ | $1.2805\text{ micrometers}$ |
+| ti | $2^{8*13}$ | $0.32782\text{ millimeters}$ |
+| lu | $2^{8*14}$ | $8.392\text{ centimeters}$ |
+| se | $2^{8*15}$ | $2.1484\text{ dekameters}$ |
+| mo | $2^{8*16}$ | $5.500\text{ kilometers}$ |
+| ji | $2^{8*17}$ | $4.696\text{ light milliseconds}$ |
+| pu | $2^{8*18}$ | $5.042\text{ Jupiter equatorial radii}$ |
+| ne | $2^{8*19}$ | $5.130\text{ light minutes}$ |
+| to | $2^{8*20}$ | $0.9120\text{ light days}$ |
+| li | $2^{8*21}$ | $6.047\text{ petameters}$ |
+| su | $2^{8*22}$ | $1.5481\text{ exameters}$ |
+| me | $2^{8*23}$ | $1.5\text{ galactic units}$ |
+| ko | $2^{8*24}$ | $3.2879\text{ megaparsecs}$ |
+| pi | $2^{8*25}$ | $2.7453\text{ gigalightyears}$ |
+| nu | $2^{8*26}$ | $6.649\text{ ronnameters}$ |
+| te | $2^{8*27}$ | $1.7021\text{ quettameters}$ |
+| lo | $2^{8*28}$ | $14.121\text{ petaparsecs}$ |
+| si | $2^{8*29}$ | $3.6151\text{ exaparsecs}$ |
+| mu | $2^{8*30}$ | $925.5\text{ exaparsecs}$ |
+| ke | $2^{8*31}$ | $236920\text{ exaparsecs}$ |
+| jo | $2^{8*32}$ | $6.065*10^{7}\text{ exaparsecs}$ |
+| kumi | $2^{8*33}$ | $1.5527*10^{10}\text{ exaparsecs}$ |
+| kuku | $2^{8*34}$ | $3.9748*10^{12}\text{ exaparsecs}$ |
+| kuje | $2^{8*35}$ | $1.0176*10^{15}\text{ exaparsecs}$ |
+| kupo | $2^{8*36}$ | $2.6049*10^{17}\text{ exaparsecs}$ |
+| kuni | $2^{8*37}$ | $6.669*10^{19}\text{ exaparsecs}$ |
+| kutu | $2^{8*38}$ | $1.7072*10^{22}\text{ exaparsecs}$ |
+| kule | $2^{8*39}$ | $4.3704*10^{24}\text{ exaparsecs}$ |
+| kuso | $2^{8*40}$ | $1.1188*10^{27}\text{ exaparsecs}$ |
+| kuki | $2^{8*41}$ | $2.8642*10^{29}\text{ exaparsecs}$ |
+| kuju | $2^{8*42}$ | $7.332*10^{31}\text{ exaparsecs}$ |
+| kupe | $2^{8*43}$ | $1.8771*10^{34}\text{ exaparsecs}$ |
+| kuno | $2^{8*44}$ | $4.805*10^{36}\text{ exaparsecs}$ |
+| kuti | $2^{8*45}$ | $1.2301*10^{39}\text{ exaparsecs}$ |
+| kulu | $2^{8*46}$ | $3.1492*10^{41}\text{ exaparsecs}$ |
+| kuse | $2^{8*47}$ | $8.062*10^{43}\text{ exaparsecs}$ |
+| kumo | $2^{8*48}$ | $2.0638*10^{46}\text{ exaparsecs}$ |
+| kuji | $2^{8*49}$ | $5.283*10^{48}\text{ exaparsecs}$ |
+| kupu | $2^{8*50}$ | $1.3526*10^{51}\text{ exaparsecs}$ |
+| kune | $2^{8*51}$ | $3.4626*10^{53}\text{ exaparsecs}$ |
+| kuto | $2^{8*52}$ | $8.864*10^{55}\text{ exaparsecs}$ |
+| kuli | $2^{8*53}$ | $2.2692*10^{58}\text{ exaparsecs}$ |
+| kusu | $2^{8*54}$ | $5.809*10^{60}\text{ exaparsecs}$ |
+| kume | $2^{8*55}$ | $1.4872*10^{63}\text{ exaparsecs}$ |
+| kuko | $2^{8*56}$ | $3.8071*10^{65}\text{ exaparsecs}$ |
+| kupi | $2^{8*57}$ | $9.746*10^{67}\text{ exaparsecs}$ |
+| kunu | $2^{8*58}$ | $2.4950*10^{70}\text{ exaparsecs}$ |
+| kute | $2^{8*59}$ | $6.387*10^{72}\text{ exaparsecs}$ |
+| kulo | $2^{8*60}$ | $1.6351*10^{75}\text{ exaparsecs}$ |
+| kusi | $2^{8*61}$ | $4.1860*10^{77}\text{ exaparsecs}$ |
+| kumu | $2^{8*62}$ | $1.0716*10^{80}\text{ exaparsecs}$ |
+| kuke | $2^{8*63}$ | $2.7433*10^{82}\text{ exaparsecs}$ |
+| kujo | $2^{8*64}$ | $7.023*10^{84}\text{ exaparsecs}$ |

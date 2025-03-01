@@ -1,0 +1,11 @@
+{
+  "name": "structure",
+  "type": "module",
+  "devDependencies": {
+    "@pumpn/eslint-config": "^16.0.0",
+    "eslint": "^9.21.0"
+  },
+  "dependencies": {
+    "radashi": "^12.3.4"
+  }
+}
