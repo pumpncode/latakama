@@ -1,6 +1,6 @@
 {
 	"name": "@pumpn/u2s",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"exports": "./u2s.js",
 	"tasks": {
 		"generate-prefixes": "deno run -R -W ./scripts/generate-prefixes.js",
