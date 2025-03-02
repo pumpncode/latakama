@@ -457,8 +457,8 @@ const U2sTimeInstant = class {
 				.toReversed()
 				.map(([number], index) => (
 					index === 0
-						? `${startAt}-${number.toString(16).padStart(2, "0")}`
-						: number.toString(16).padStart(2, "0")
+						? `${startAt}-${number.toString(16).toUpperCase().padStart(2, "0")}`
+						: number.toString(16).toUpperCase().padStart(2, "0")
 				))
 				.join("-")
 		);
