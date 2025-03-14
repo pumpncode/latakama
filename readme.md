@@ -1,8 +1,8 @@
-# u2s
+# latakama
 
-The universal unit system (u2s) is a system of units of measurement based on universal physical constants and dimensionless quantities. The planck units themselves serve as the base units from which multiples or submultiples are derived.
+The latakama is a system of units of measurement based on universal physical constants and dimensionless quantities. The planck units themselves serve as the base units from which multiples or submultiples are derived.
 
-The building blocks of u2s are these fundamental constants:
+The building blocks of latakama are these fundamental constants:
 
 - $\hbar$, the [reduced Planck constant](https://en.wikipedia.org/wiki/Planck_constant#Reduced_Planck_constant)
 - $G$, the [gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant)

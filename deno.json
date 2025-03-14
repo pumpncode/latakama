@@ -1,11 +1,14 @@
 {
-	"name": "@pumpn/u2s",
-	"version": "0.2.0",
-	"exports": "./u2s.js",
+	"name": "@pumpn/latakama",
+	"version": "0.3.0",
+	"exports": "./latakama.js",
 	"tasks": {
 		"generate-prefixes": "deno run -R -W ./scripts/generate-prefixes.js",
 		"generate-prefixes-2": "deno run -R -W ./scripts/generate-prefixes-2.js",
-		"convert-mathematica-prefixes-to-markdown": "deno run -R -W ./scripts/convert-mathematica-prefixes-to-markdown.js"
+		"convert-mathematica-prefixes-to-markdown": "deno run -R -W ./scripts/convert-mathematica-prefixes-to-markdown.js",
+		"convert-presentations-to-equations": "deno run -R -W ./scripts/convert-presentations-to-equations.js",
+		"convert-equations-to-presentations": "deno run -R -W ./scripts/convert-equations-to-presentations.js",
+		"generate-representations": "deno run ./scripts/generate-representations.js"
 	},
 	"license": "0BSD",
 	"imports": {

@@ -1,1 +1,1 @@
-export { default as u2sTimeInstantSchemaEntries } from "./u2s-time-instant-schema-entries.js";
+export { default as latakamaTimeInstantSchemaEntries } from "./latakama-time-instant-schema-entries.js";

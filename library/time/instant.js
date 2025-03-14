@@ -6,7 +6,7 @@ import {
 	factorBase,
 	factorExponentMultiplier,
 	quectosecondsInSecondBigNumber,
-	u2sTimeInstantLikeSchema,
+	latakamaTimeInstantLikeSchema,
 	units
 } from "./_common/_exports.js";
 import {
@@ -19,166 +19,166 @@ import {
  * @import { Entries } from "type-fest";
  * @import { Call, Numbers } from "hotscript";
  * @import {
- * 	U2sTimeInstantFromDate,
- * 	U2sTimeInstantFromString,
- * 	U2sTimeInstantFromTemporalDuration,
- * 	U2sTimeInstantFromTemporalZonedDateTime,
- * 	U2sTimeInstantFromU2sTimeInstant,
- * 	U2sTimeInstantString,
+ * 	LatakamaTimeInstantFromDate,
+ * 	LatakamaTimeInstantFromString,
+ * 	LatakamaTimeInstantFromTemporalDuration,
+ * 	LatakamaTimeInstantFromTemporalZonedDateTime,
+ * 	LatakamaTimeInstantFromLatakamaTimeInstant,
+ * 	LatakamaTimeInstantString,
  * 	Fallback
  * } from "./instant/_exports.js";
  * @import {
- * 	U2sTimeInstantFromTemporalInstant,
- * 	U2sTimeInstantFromEpochQuectoseconds,
- * 	U2sTimeInstantFromU2sTimeInstantLike,
- * 	U2sTimeInstantLike,
- * 	u2sTimeInstantSchema,
+ * 	LatakamaTimeInstantFromTemporalInstant,
+ * 	LatakamaTimeInstantFromEpochQuectoseconds,
+ * 	LatakamaTimeInstantFromLatakamaTimeInstantLike,
+ * 	LatakamaTimeInstantLike,
+ * 	latakamaTimeInstantSchema,
  * 	Units
  * } from "./_common/_exports.js";
  */
 
 /**
- * The U2sTimeInstant object represents a date in the u2s system.
+ * The LatakamaTimeInstant object represents a date in the latakama system.
  *
- * @template {U2sTimeInstantLike} [U2sTimeInstantLikeTemplate=U2sTimeInstantLike]
+ * @template {LatakamaTimeInstantLike} [LatakamaTimeInstantLikeTemplate=LatakamaTimeInstantLike]
  */
-const U2sTimeInstant = class {
+const LatakamaTimeInstant = class {
 
-	jeta = /** @type {Fallback<U2sTimeInstantLikeTemplate["jeta"], number, 0>} */ (0);
+	jeta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["jeta"], number, 0>} */ (0);
 
-	jita = /** @type {Fallback<U2sTimeInstantLikeTemplate["jita"], number, 0>} */ (0);
+	jita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["jita"], number, 0>} */ (0);
 
-	jota = /** @type {Fallback<U2sTimeInstantLikeTemplate["jota"], number, 0>} */ (0);
+	jota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["jota"], number, 0>} */ (0);
 
-	juta = /** @type {Fallback<U2sTimeInstantLikeTemplate["juta"], number, 0>} */ (0);
+	juta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["juta"], number, 0>} */ (0);
 
-	keta = /** @type {Fallback<U2sTimeInstantLikeTemplate["keta"], number, 0>} */ (0);
+	keta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["keta"], number, 0>} */ (0);
 
-	kita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kita"], number, 0>} */ (0);
+	kita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kita"], number, 0>} */ (0);
 
-	kota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kota"], number, 0>} */ (0);
+	kota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kota"], number, 0>} */ (0);
 
-	kujeta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kujeta"], number, 0>} */ (0);
+	kujeta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kujeta"], number, 0>} */ (0);
 
-	kujita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kujita"], number, 0>} */ (0);
+	kujita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kujita"], number, 0>} */ (0);
 
-	kujota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kujota"], number, 0>} */ (0);
+	kujota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kujota"], number, 0>} */ (0);
 
-	kujuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kujuta"], number, 0>} */ (0);
+	kujuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kujuta"], number, 0>} */ (0);
 
-	kuketa = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuketa"], number, 0>} */ (0);
+	kuketa = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuketa"], number, 0>} */ (0);
 
-	kukita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kukita"], number, 0>} */ (0);
+	kukita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kukita"], number, 0>} */ (0);
 
-	kukota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kukota"], number, 0>} */ (0);
+	kukota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kukota"], number, 0>} */ (0);
 
-	kukuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kukuta"], number, 0>} */ (0);
+	kukuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kukuta"], number, 0>} */ (0);
 
-	kuleta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuleta"], number, 0>} */ (0);
+	kuleta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuleta"], number, 0>} */ (0);
 
-	kulita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kulita"], number, 0>} */ (0);
+	kulita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kulita"], number, 0>} */ (0);
 
-	kulota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kulota"], number, 0>} */ (0);
+	kulota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kulota"], number, 0>} */ (0);
 
-	kuluta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuluta"], number, 0>} */ (0);
+	kuluta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuluta"], number, 0>} */ (0);
 
-	kumeta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kumeta"], number, 0>} */ (0);
+	kumeta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kumeta"], number, 0>} */ (0);
 
-	kumita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kumita"], number, 0>} */ (0);
+	kumita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kumita"], number, 0>} */ (0);
 
-	kumota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kumota"], number, 0>} */ (0);
+	kumota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kumota"], number, 0>} */ (0);
 
-	kumuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kumuta"], number, 0>} */ (0);
+	kumuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kumuta"], number, 0>} */ (0);
 
-	kuneta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuneta"], number, 0>} */ (0);
+	kuneta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuneta"], number, 0>} */ (0);
 
-	kunita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kunita"], number, 0>} */ (0);
+	kunita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kunita"], number, 0>} */ (0);
 
-	kunota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kunota"], number, 0>} */ (0);
+	kunota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kunota"], number, 0>} */ (0);
 
-	kunuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kunuta"], number, 0>} */ (0);
+	kunuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kunuta"], number, 0>} */ (0);
 
-	kupeta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kupeta"], number, 0>} */ (0);
+	kupeta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kupeta"], number, 0>} */ (0);
 
-	kupita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kupita"], number, 0>} */ (0);
+	kupita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kupita"], number, 0>} */ (0);
 
-	kupota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kupota"], number, 0>} */ (0);
+	kupota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kupota"], number, 0>} */ (0);
 
-	kuputa = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuputa"], number, 0>} */ (0);
+	kuputa = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuputa"], number, 0>} */ (0);
 
-	kuseta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuseta"], number, 0>} */ (0);
+	kuseta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuseta"], number, 0>} */ (0);
 
-	kusita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kusita"], number, 0>} */ (0);
+	kusita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kusita"], number, 0>} */ (0);
 
-	kusota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kusota"], number, 0>} */ (0);
+	kusota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kusota"], number, 0>} */ (0);
 
-	kusuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kusuta"], number, 0>} */ (0);
+	kusuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kusuta"], number, 0>} */ (0);
 
-	kuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuta"], number, 0>} */ (0);
+	kuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuta"], number, 0>} */ (0);
 
-	kuteta = /** @type {Fallback<U2sTimeInstantLikeTemplate["kuteta"], number, 0>} */ (0);
+	kuteta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kuteta"], number, 0>} */ (0);
 
-	kutita = /** @type {Fallback<U2sTimeInstantLikeTemplate["kutita"], number, 0>} */ (0);
+	kutita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kutita"], number, 0>} */ (0);
 
-	kutota = /** @type {Fallback<U2sTimeInstantLikeTemplate["kutota"], number, 0>} */ (0);
+	kutota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kutota"], number, 0>} */ (0);
 
-	kututa = /** @type {Fallback<U2sTimeInstantLikeTemplate["kututa"], number, 0>} */ (0);
+	kututa = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["kututa"], number, 0>} */ (0);
 
-	leta = /** @type {Fallback<U2sTimeInstantLikeTemplate["leta"], number, 0>} */ (0);
+	leta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["leta"], number, 0>} */ (0);
 
-	lita = /** @type {Fallback<U2sTimeInstantLikeTemplate["lita"], number, 0>} */ (0);
+	lita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["lita"], number, 0>} */ (0);
 
-	lota = /** @type {Fallback<U2sTimeInstantLikeTemplate["lota"], number, 0>} */ (0);
+	lota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["lota"], number, 0>} */ (0);
 
-	luta = /** @type {Fallback<U2sTimeInstantLikeTemplate["luta"], number, 0>} */ (0);
+	luta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["luta"], number, 0>} */ (0);
 
-	meta = /** @type {Fallback<U2sTimeInstantLikeTemplate["meta"], number, 0>} */ (0);
+	meta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["meta"], number, 0>} */ (0);
 
-	mita = /** @type {Fallback<U2sTimeInstantLikeTemplate["mita"], number, 0>} */ (0);
+	mita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["mita"], number, 0>} */ (0);
 
-	mota = /** @type {Fallback<U2sTimeInstantLikeTemplate["mota"], number, 0>} */ (0);
+	mota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["mota"], number, 0>} */ (0);
 
-	muta = /** @type {Fallback<U2sTimeInstantLikeTemplate["muta"], number, 0>} */ (0);
+	muta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["muta"], number, 0>} */ (0);
 
-	neta = /** @type {Fallback<U2sTimeInstantLikeTemplate["neta"], number, 0>} */ (0);
+	neta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["neta"], number, 0>} */ (0);
 
-	nita = /** @type {Fallback<U2sTimeInstantLikeTemplate["nita"], number, 0>} */ (0);
+	nita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["nita"], number, 0>} */ (0);
 
-	nota = /** @type {Fallback<U2sTimeInstantLikeTemplate["nota"], number, 0>} */ (0);
+	nota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["nota"], number, 0>} */ (0);
 
-	nuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["nuta"], number, 0>} */ (0);
+	nuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["nuta"], number, 0>} */ (0);
 
-	peta = /** @type {Fallback<U2sTimeInstantLikeTemplate["peta"], number, 0>} */ (0);
+	peta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["peta"], number, 0>} */ (0);
 
-	pita = /** @type {Fallback<U2sTimeInstantLikeTemplate["pita"], number, 0>} */ (0);
+	pita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["pita"], number, 0>} */ (0);
 
-	pota = /** @type {Fallback<U2sTimeInstantLikeTemplate["pota"], number, 0>} */ (0);
+	pota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["pota"], number, 0>} */ (0);
 
-	puta = /** @type {Fallback<U2sTimeInstantLikeTemplate["puta"], number, 0>} */ (0);
+	puta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["puta"], number, 0>} */ (0);
 
-	seta = /** @type {Fallback<U2sTimeInstantLikeTemplate["seta"], number, 0>} */ (0);
+	seta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["seta"], number, 0>} */ (0);
 
-	sita = /** @type {Fallback<U2sTimeInstantLikeTemplate["sita"], number, 0>} */ (0);
+	sita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["sita"], number, 0>} */ (0);
 
-	sota = /** @type {Fallback<U2sTimeInstantLikeTemplate["sota"], number, 0>} */ (0);
+	sota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["sota"], number, 0>} */ (0);
 
-	suta = /** @type {Fallback<U2sTimeInstantLikeTemplate["suta"], number, 0>} */ (0);
+	suta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["suta"], number, 0>} */ (0);
 
-	ta = /** @type {Fallback<U2sTimeInstantLikeTemplate["ta"], number, 0>} */ (0);
+	ta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["ta"], number, 0>} */ (0);
 
-	teta = /** @type {Fallback<U2sTimeInstantLikeTemplate["teta"], number, 0>} */ (0);
+	teta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["teta"], number, 0>} */ (0);
 
-	tita = /** @type {Fallback<U2sTimeInstantLikeTemplate["tita"], number, 0>} */ (0);
+	tita = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["tita"], number, 0>} */ (0);
 
-	tota = /** @type {Fallback<U2sTimeInstantLikeTemplate["tota"], number, 0>} */ (0);
+	tota = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["tota"], number, 0>} */ (0);
 
-	tuta = /** @type {Fallback<U2sTimeInstantLikeTemplate["tuta"], number, 0>} */ (0);
+	tuta = /** @type {Fallback<LatakamaTimeInstantLikeTemplate["tuta"], number, 0>} */ (0);
 
 	/**
 	 *
 	 */
 	get #firstValueExponent() {
-		return U2sTimeInstant.#getUnitExponent(this.#firstValueUnit);
+		return LatakamaTimeInstant.#getUnitExponent(this.#firstValueUnit);
 	}
 
 	/**
@@ -189,40 +189,40 @@ const U2sTimeInstant = class {
 	}
 
 	/**
-	 * Constructs a U2sTimeInstant.
+	 * Constructs a LatakamaTimeInstant.
 	 *
-	 * @param {U2sTimeInstantLikeTemplate} [u2sTimeInstantLike]
+	 * @param {LatakamaTimeInstantLikeTemplate} [latakamaTimeInstantLike]
 	 * @example
 	 */
-	constructor(u2sTimeInstantLike = /** @type {U2sTimeInstantLikeTemplate} */ ({})) {
+	constructor(latakamaTimeInstantLike = /** @type {LatakamaTimeInstantLikeTemplate} */ ({})) {
 		Object.assign(
 			this,
-			v.parse(u2sTimeInstantLikeSchema, u2sTimeInstantLike)
+			v.parse(latakamaTimeInstantLikeSchema, latakamaTimeInstantLike)
 		);
 	}
 
 	/**
-	 * Convert thing to U2sTimeInstant.
+	 * Convert thing to LatakamaTimeInstant.
 	 *
-	 * @template {U2sTimeInstant|U2sTimeInstantLike|Temporal.Instant|Temporal.ZonedDateTime|Temporal.Duration|Date|number|bigint|string}  ThingTemplate
+	 * @template {LatakamaTimeInstant|LatakamaTimeInstantLike|Temporal.Instant|Temporal.ZonedDateTime|Temporal.Duration|Date|number|bigint|string}  ThingTemplate
 	 * @param {ThingTemplate} thing
 	 * @returns {(
-	 * ThingTemplate extends typeof U2sTimeInstant
-	 * ? U2sTimeInstantFromU2sTimeInstant<ThingTemplate>
-	 * : ThingTemplate extends U2sTimeInstantLike
-	 * ? U2sTimeInstantFromU2sTimeInstantLike<ThingTemplate>
+	 * ThingTemplate extends typeof LatakamaTimeInstant
+	 * ? LatakamaTimeInstantFromLatakamaTimeInstant<ThingTemplate>
+	 * : ThingTemplate extends LatakamaTimeInstantLike
+	 * ? LatakamaTimeInstantFromLatakamaTimeInstantLike<ThingTemplate>
 	 * : ThingTemplate extends Temporal.Instant
-	 * ? U2sTimeInstantFromTemporalInstant<ThingTemplate>
+	 * ? LatakamaTimeInstantFromTemporalInstant<ThingTemplate>
 	 * : ThingTemplate extends Temporal.ZonedDateTime
-	 * ? U2sTimeInstantFromTemporalZonedDateTime<ThingTemplate>
+	 * ? LatakamaTimeInstantFromTemporalZonedDateTime<ThingTemplate>
 	 * : ThingTemplate extends Temporal.Duration
-	 * ? U2sTimeInstantFromTemporalDuration<ThingTemplate>
+	 * ? LatakamaTimeInstantFromTemporalDuration<ThingTemplate>
 	 * : ThingTemplate extends Date
-	 * ? U2sTimeInstantFromDate<ThingTemplate>
+	 * ? LatakamaTimeInstantFromDate<ThingTemplate>
 	 * : ThingTemplate extends number | bigint
-	 * ? U2sTimeInstantFromEpochQuectoseconds<ThingTemplate>
+	 * ? LatakamaTimeInstantFromEpochQuectoseconds<ThingTemplate>
 	 * : ThingTemplate extends string
-	 * ? U2sTimeInstantFromString<ThingTemplate>
+	 * ? LatakamaTimeInstantFromString<ThingTemplate>
 	 * : never
 	 * )}
 	 * @throws {TypeError} Unsupported type
@@ -259,42 +259,42 @@ const U2sTimeInstant = class {
 			return this.#fromString(thing);
 		}
 
-		if (thing instanceof U2sTimeInstant) {
+		if (thing instanceof LatakamaTimeInstant) {
 			// @ts-ignore
-			return this.#fromU2sTimeInstant(thing);
+			return this.#fromLatakamaTimeInstant(thing);
 		}
 
-		if (v.is(u2sTimeInstantLikeSchema, thing)) {
+		if (v.is(latakamaTimeInstantLikeSchema, thing)) {
 			// @ts-ignore
-			return this.#fromU2sTimeInstantLike(thing);
+			return this.#fromLatakamaTimeInstantLike(thing);
 		}
 
 		throw new TypeError(`Unsupported type: ${typeof thing}`);
 	};
 
 	/**
-	 * Convert Date to U2sTimeInstant.
+	 * Convert Date to LatakamaTimeInstant.
 	 *
 	 * @template {Date} DateTemplate
 	 * @param {DateTemplate} date
-	 * @returns {U2sTimeInstantFromDate<DateTemplate>}
+	 * @returns {LatakamaTimeInstantFromDate<DateTemplate>}
 	 * @example
 	 */
 	static #fromDate = (date) => this.#fromTemporalInstant(date.toTemporalInstant());
 
 	/**
-	 * Convert EpochQuectoseconds to U2sTimeInstant.
+	 * Convert EpochQuectoseconds to LatakamaTimeInstant.
 	 *
 	 * @template {number|bigint} EpochQuectosecondsTemplate
 	 * @param {EpochQuectosecondsTemplate} epochQuectoseconds
-	 * @returns {U2sTimeInstantFromEpochQuectoseconds<EpochQuectosecondsTemplate>}
+	 * @returns {LatakamaTimeInstantFromEpochQuectoseconds<EpochQuectosecondsTemplate>}
 	 * @example
 	 */
 	static #fromEpochQuectoseconds = (epochQuectoseconds) => {
 		/**
-		 * @type {U2sTimeInstantLike}
+		 * @type {LatakamaTimeInstantLike}
 		 */
-		const u2sTimeInstant = {};
+		const latakamaTimeInstant = {};
 
 		const rest = epochQuectoseconds;
 
@@ -324,24 +324,24 @@ const U2sTimeInstant = class {
 			restBigNumber = restBigNumber
 				.sub(flooredFractionBigNumber.times(unitQuectosecondsBigNumber));
 
-			u2sTimeInstant[unit] = flooredFractionBigNumber.toNumber();
+			latakamaTimeInstant[unit] = flooredFractionBigNumber.toNumber();
 		}
 
-		return U2sTimeInstant.#fromU2sTimeInstantLike(u2sTimeInstant);
+		return LatakamaTimeInstant.#fromLatakamaTimeInstantLike(latakamaTimeInstant);
 	};
 
 	/**
-	 * Convert string to U2sTimeInstant.
+	 * Convert string to LatakamaTimeInstant.
 	 *
 	 * @template {string} StringTemplate
 	 * @param {StringTemplate} string
-	 * @returns {U2sTimeInstantFromString<StringTemplate>}
+	 * @returns {LatakamaTimeInstantFromString<StringTemplate>}
 	 * @example
 	 */
 	static #fromString = (string) => {
 		const [exponent, ...values] = string.split("-").map((string) => Number.parseInt(string, 16));
 
-		return this.#fromU2sTimeInstantLike(
+		return this.#fromLatakamaTimeInstantLike(
 			Object.fromEntries(
 				units
 					.toReversed()
@@ -353,11 +353,11 @@ const U2sTimeInstant = class {
 	};
 
 	/**
-	 * Convert Duration to U2sTimeInstant.
+	 * Convert Duration to LatakamaTimeInstant.
 	 *
 	 * @template {Temporal.Duration} DurationTemplate
 	 * @param {DurationTemplate} duration
-	 * @returns {U2sTimeInstantFromTemporalDuration<DurationTemplate>}
+	 * @returns {LatakamaTimeInstantFromTemporalDuration<DurationTemplate>}
 	 * @example
 	 */
 	static #fromTemporalDuration = (duration) => this.#fromEpochQuectoseconds(
@@ -365,11 +365,11 @@ const U2sTimeInstant = class {
 	);
 
 	/**
-	 * Convert Instant to U2sTimeInstant.
+	 * Convert Instant to LatakamaTimeInstant.
 	 *
 	 * @template {Temporal.Instant} InstantTemplate
 	 * @param {InstantTemplate} instant
-	 * @returns {U2sTimeInstantFromTemporalInstant<InstantTemplate>}
+	 * @returns {LatakamaTimeInstantFromTemporalInstant<InstantTemplate>}
 	 * @example
 	 */
 	static #fromTemporalInstant = (instant) => {
@@ -389,11 +389,11 @@ const U2sTimeInstant = class {
 	};
 
 	/**
-	 * Convert ZonedDateTime to U2sTimeInstant.
+	 * Convert ZonedDateTime to LatakamaTimeInstant.
 	 *
 	 * @template {Temporal.ZonedDateTime} ZonedDateTimeTemplate
 	 * @param {ZonedDateTimeTemplate} zonedDateTime
-	 * @returns {U2sTimeInstantFromTemporalZonedDateTime<ZonedDateTimeTemplate>}
+	 * @returns {LatakamaTimeInstantFromTemporalZonedDateTime<ZonedDateTimeTemplate>}
 	 * @example
 	 */
 	static #fromTemporalZonedDateTime = (zonedDateTime) => this.#fromTemporalInstant(
@@ -401,24 +401,24 @@ const U2sTimeInstant = class {
 	);
 
 	/**
-	 * Convert U2sTimeInstant to U2sTimeInstant.
+	 * Convert LatakamaTimeInstant to LatakamaTimeInstant.
 	 *
-	 * @template {U2sTimeInstant} U2sTimeInstantTemplate
-	 * @param {U2sTimeInstantTemplate} u2sTimeInstant
-	 * @returns {U2sTimeInstantFromU2sTimeInstant<U2sTimeInstantTemplate>}
+	 * @template {LatakamaTimeInstant} LatakamaTimeInstantTemplate
+	 * @param {LatakamaTimeInstantTemplate} latakamaTimeInstant
+	 * @returns {LatakamaTimeInstantFromLatakamaTimeInstant<LatakamaTimeInstantTemplate>}
 	 * @example
 	 */
-	static #fromU2sTimeInstant = (u2sTimeInstant) => new U2sTimeInstant(u2sTimeInstant);
+	static #fromLatakamaTimeInstant = (latakamaTimeInstant) => new LatakamaTimeInstant(latakamaTimeInstant);
 
 	/**
-	 * Convert U2sTimeInstantLike to U2sTimeInstant.
+	 * Convert LatakamaTimeInstantLike to LatakamaTimeInstant.
 	 *
-	 * @template {U2sTimeInstantLike} U2sTimeInstantLikeTemplate
-	 * @param {U2sTimeInstantLikeTemplate} u2sTimeInstantLike
-	 * @returns {U2sTimeInstantFromU2sTimeInstantLike<U2sTimeInstantLikeTemplate>}
+	 * @template {LatakamaTimeInstantLike} LatakamaTimeInstantLikeTemplate
+	 * @param {LatakamaTimeInstantLikeTemplate} latakamaTimeInstantLike
+	 * @returns {LatakamaTimeInstantFromLatakamaTimeInstantLike<LatakamaTimeInstantLikeTemplate>}
 	 * @example
 	 */
-	static #fromU2sTimeInstantLike = (u2sTimeInstantLike) => new U2sTimeInstant(u2sTimeInstantLike);
+	static #fromLatakamaTimeInstantLike = (latakamaTimeInstantLike) => new LatakamaTimeInstant(latakamaTimeInstantLike);
 
 	/**
 	 *
@@ -430,25 +430,25 @@ const U2sTimeInstant = class {
 	}
 
 	/**
-	 * Stringify U2sTimeInstant
+	 * Stringify LatakamaTimeInstant
 	 *
 	 * @template {number} [StartAtTemplate=Call<Numbers.Sub<Units["length"], 1>>]
 	 * @template {number} [EndAtTemplate=0]
 	 * @param {object} [options] - The options object.
 	 * @param {StartAtTemplate} [options.startAt] - The starting exponent.
 	 * @param {EndAtTemplate} [options.endAt] - The ending exponent.
-	 * @returns {U2sTimeInstantString<this, StartAtTemplate, EndAtTemplate>}
+	 * @returns {LatakamaTimeInstantString<this, StartAtTemplate, EndAtTemplate>}
 	 * @example
 	 */
 	toString = ({
 		endAt = /** @type {EndAtTemplate} */ (0),
 		startAt = /** @type {StartAtTemplate} */ (Math.max(this.#firstValueExponent, endAt))
 	} = {}) => {
-		const entries = /** @type {Entries<v.InferOutput<typeof u2sTimeInstantSchema>>} */ (
+		const entries = /** @type {Entries<v.InferOutput<typeof latakamaTimeInstantSchema>>} */ (
 			Object.entries(this)
 		);
 
-		return /** @type {U2sTimeInstantString<this, StartAtTemplate, EndAtTemplate>} */ (
+		return /** @type {LatakamaTimeInstantString<this, StartAtTemplate, EndAtTemplate>} */ (
 			entries
 				.filter(([unit]) => units.includes(unit))
 				.toSorted(([unitA], [unitB]) => units.indexOf(unitB) - units.indexOf(unitA))
@@ -466,4 +466,4 @@ const U2sTimeInstant = class {
 
 };
 
-export default U2sTimeInstant;
+export default LatakamaTimeInstant;

@@ -1,1 +1,1 @@
-export * from "./u2s-time-instant-schema-object.doc.js";
+export * from "./latakama-time-instant-schema-object.doc.js";

@@ -1,4 +1,4 @@
-import U2sTimeInstant from "../instant.js";
+import LatakamaTimeInstant from "../instant.js";
 
 const {
 	Now
@@ -8,6 +8,6 @@ const {
  *
  * @example
  */
-const u2sTimeNowInstant = () => U2sTimeInstant.from(Now.instant());
+const latakamaTimeNowInstant = () => LatakamaTimeInstant.from(Now.instant());
 
-export default u2sTimeNowInstant;
+export default latakamaTimeNowInstant;
