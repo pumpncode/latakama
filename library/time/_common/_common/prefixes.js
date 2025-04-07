@@ -62,7 +62,6 @@ const prefixes = /** @type {const} */ ([
 	"po",
 	"je",
 	"ku",
-	"mi",
 	""
 ]);
 

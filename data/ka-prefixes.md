@@ -61,4 +61,3 @@
 | po | $2^{8*61}$ | $1.7728*10^{-85}\text{ quectokelvins}$ |
 | je | $2^{8*62}$ | $6.925*10^{-88}\text{ quectokelvins}$ |
 | ku | $2^{8*63}$ | $2.7051*10^{-90}\text{ quectokelvins}$ |
-| mi | $2^{8*64}$ | $1.0567*10^{-92}\text{ quectokelvins}$ |
